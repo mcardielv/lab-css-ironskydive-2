@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
 html,
-body {
+body{
   margin: 0;
   padding: 0;
   font-family: Roboto;
@@ -15,7 +15,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
 font-family: Roboto Condensed;}
 
 h1{
@@ -50,17 +50,17 @@ h5{
     line-height: 1em;
 }
 
-.nav-bar {
-    color:rgb(25, 33, 41);
+.navbar{
+    background-color:rgb(25, 33, 41);
 }
 
-.nav-bar a{
+.navbar a{
     color:white;
     text-decoration: none;
     font-size: 2em;
 }
 
-header{
+.header{
     height: 650px;
     background-image:url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
     background-position: 0,0;
@@ -72,17 +72,65 @@ header{
     font-size: 2.5em;
 }
 
-.dark-background {
-background-color: rgb(25, 33, 41);
-color: white;
+.dark-background{
+    background-color: rgb(25, 33, 41);
+    color: white;
 }
 
-.text {
+.text{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.linkbtn{
+background-color:rgb(67, 163, 230);
+color: white;
+font-family: Roboto Condensed;
 font-size: 2em;
-font-weight: 100;
+letter-spacing: 0.5px;
+text-align: center;
+text-decoration: none;
+}
+
+.servicebox{
+font-size: 1.7em;
 text-align: center;
 }
 
-.section 2{
-    
+.servicebox img{
+    width: 125px;
+}
+
+/* preguntar si se puede poner id y class p en vez de crear una class especifica */
+#team .section-text{
+font-size: 1.9em;
+text-align: center;
+}
+
+#team .member-name{
+font-size: 1.5em;
+font-weight: 700;
+}
+
+#team img{
+    width: 250px;
+    height: 180px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer address{
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.footer a{
+    color:rgb(67, 163, 230);
+    text-decoration: none;
+}
+.footer ul{
+    list-style: none;
 }
